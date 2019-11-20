@@ -1,6 +1,18 @@
 #!/usr/bin/env bash
 
 
+open -a "/Applications/Google Chrome.app" 'http://localhost:8008/web/hello-chart/3rd/Highcharts-7/' && \
+open -a "/Applications/Google Chrome.app" 'http://localhost:8008/web/hello-chart/projects/bsadmin/'
+
+
+http://localhost:8008/web/hello-chart/3rd/Highcharts-7/
+
+http://localhost:8008/web/hello-chart/projects/bsadmin/
+
+http://localhost:8008/web/hello-chart/projects/khansharukh/
+
+
+
 ### chart.js
 ### awesome
 https://github.com/chartjs/awesome

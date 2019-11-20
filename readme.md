@@ -1,6 +1,9 @@
 # hello-chart
 
 
+https://fontawesome.com/icons
+
+
 ### admin dashboard template
 
 https://github.com/ColorlibHQ/AdminLTE
