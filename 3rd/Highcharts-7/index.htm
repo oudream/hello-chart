@@ -1,170 +1,280 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Highcharts Examples</title>
-	</head>
-	<body>
-		<h1>Highcharts Examples</h1>
-		<h4>Line charts</h4>
-		<ul>
-			<li><a href="examples/line-basic/index.htm">Basic line</a></li>
-			<li><a href="examples/line-ajax/index.htm">Ajax loaded data, clickable points</a></li>
-			<li><a href="examples/line-labels/index.htm">With data labels</a></li>
-			<li><a href="examples/annotations/index.htm">With annotations</a></li>
-			<li><a href="examples/line-time-series/index.htm">Time series, zoomable</a></li>
-			<li><a href="examples/spline-inverted/index.htm">Spline with inverted axes</a></li>
-			<li><a href="examples/spline-symbols/index.htm">Spline with symbols</a></li>
-			<li><a href="examples/spline-plot-bands/index.htm">Spline with plot bands</a></li>
-			<li><a href="examples/spline-irregular-time/index.htm">Time data with irregular intervals</a></li>
-			<li><a href="examples/line-log-axis/index.htm">Logarithmic axis</a></li>
-			<li><a href="examples/line-boost/index.htm">Line chart with 500k points</a></li>
-		</ul>
-		<h4>Area charts</h4>
-		<ul>
-			<li><a href="examples/area-basic/index.htm">Basic area</a></li>
-			<li><a href="examples/area-negative/index.htm">Area with negative values</a></li>
-			<li><a href="examples/area-stacked/index.htm">Stacked area</a></li>
-			<li><a href="examples/area-stacked-percent/index.htm">Percentage area</a></li>
-			<li><a href="examples/area-missing/index.htm">Area with missing points</a></li>
-			<li><a href="examples/area-inverted/index.htm">Inverted axes</a></li>
-			<li><a href="examples/areaspline/index.htm">Area-spline</a></li>
-			<li><a href="examples/arearange/index.htm">Area range</a></li>
-			<li><a href="examples/arearange-line/index.htm">Area range and line</a></li>
-			<li><a href="examples/sparkline/index.htm">Sparkline charts</a></li>
-			<li><a href="examples/streamgraph/index.htm">Streamgraph</a></li>
-		</ul>
-		<h4>Column and bar charts</h4>
-		<ul>
-			<li><a href="examples/bar-basic/index.htm">Basic bar</a></li>
-			<li><a href="examples/bar-stacked/index.htm">Stacked bar</a></li>
-			<li><a href="examples/bar-negative-stack/index.htm">Bar with negative stack</a></li>
-			<li><a href="examples/column-basic/index.htm">Basic column</a></li>
-			<li><a href="examples/column-negative/index.htm">Column with negative values</a></li>
-			<li><a href="examples/column-stacked/index.htm">Stacked column</a></li>
-			<li><a href="examples/column-stacked-and-grouped/index.htm">Stacked and grouped column</a></li>
-			<li><a href="examples/column-stacked-percent/index.htm">Stacked percentage column</a></li>
-			<li><a href="examples/column-rotated-labels/index.htm">Column with rotated labels</a></li>
-			<li><a href="examples/column-drilldown/index.htm">Column with drilldown</a></li>
-			<li><a href="examples/column-placement/index.htm">Fixed placement columns</a></li>
-			<li><a href="examples/column-parsed/index.htm">Data defined in a HTML table</a></li>
-			<li><a href="examples/columnrange/index.htm">Column range</a></li>
-		</ul>
-		<h4>Pie charts</h4>
-		<ul>
-			<li><a href="examples/pie-basic/index.htm">Pie chart</a></li>
-			<li><a href="examples/pie-legend/index.htm">Pie with legend</a></li>
-			<li><a href="examples/pie-donut/index.htm">Donut chart</a></li>
-			<li><a href="examples/pie-semi-circle/index.htm">Semi circle donut</a></li>
-			<li><a href="examples/pie-drilldown/index.htm">Pie with drilldown</a></li>
-			<li><a href="examples/pie-gradient/index.htm">Pie with gradient fill</a></li>
-			<li><a href="examples/pie-monochrome/index.htm">Pie with monochrome fill</a></li>
-			<li><a href="examples/variable-radius-pie/index.htm">Variable radius pie</a></li>
-		</ul>
-		<h4>Scatter and bubble charts</h4>
-		<ul>
-			<li><a href="examples/scatter/index.htm">Scatter plot</a></li>
-			<li><a href="examples/scatter-boost/index.htm">Scatter plot with 1 million points</a></li>
-			<li><a href="examples/bubble/index.htm">Bubble chart</a></li>
-			<li><a href="examples/bubble-3d/index.htm">3D bubbles</a></li>
-			<li><a href="examples/packed-bubble/index.htm">Packed bubble chart</a></li>
-			<li><a href="examples/packed-bubble-split/index.htm">Split Packed bubble chart</a></li>
-		</ul>
-		<h4>Combinations</h4>
-		<ul>
-			<li><a href="examples/synchronized-charts/index.htm">Synchronized charts</a></li>
-			<li><a href="examples/combo/index.htm">Column, line and pie</a></li>
-			<li><a href="examples/combo-dual-axes/index.htm">Dual axes, line and column</a></li>
-			<li><a href="examples/combo-multi-axes/index.htm">Multiple axes</a></li>
-			<li><a href="examples/combo-regression/index.htm">Scatter with regression line</a></li>
-			<li><a href="examples/combo-meteogram/index.htm">Meteogram</a></li>
-			<li><a href="examples/combo-timeline/index.htm">Advanced timeline</a></li>
-		</ul>
-		<h4>Styled mode (CSS styling)</h4>
-		<ul>
-			<li><a href="examples/styled-mode-column/index.htm">Styled mode column</a></li>
-			<li><a href="examples/styled-mode-pie/index.htm">Styled mode pie</a></li>
-		</ul>
-        <h4>Accessible charts</h4>
-		<ul>
-			<li><a href="examples/accessible-line/index.htm">Accessible line chart</a></li>
-			<li><a href="examples/accessible-pie/index.htm">Accessible pie chart</a></li>
-            <li><a href="examples/advanced-accessible/index.htm">Advanced accessible chart</a></li>
-            <li><a href="examples/sonification/index.htm">Sonification</a></li>
-		</ul>
-		<h4>Dynamic charts</h4>
-		<ul>
-			<li><a href="examples/dynamic-update/index.htm">Spline updating each second</a></li>
-			<li><a href="examples/dynamic-click-to-add/index.htm">Click to add a point</a></li>
-			<li><a href="examples/dynamic-master-detail/index.htm">Master-detail chart</a></li>
-			<li><a href="examples/chart-update/index.htm">Update options after render</a></li>
-			<li><a href="examples/responsive/index.htm">Responsive chart</a></li>
-			<li><a href="examples/live-data/index.htm">Live data from dynamic CSV</a></li>
-		</ul>
-		<h4>3D charts</h4>
-		<ul>
-			<li><a href="examples/3d-column-interactive/index.htm">3D column</a></li>
-			<li><a href="examples/3d-column-null-values/index.htm">3D column with null and 0 values</a></li>
-			<li><a href="examples/cylinder/index.htm">3D cylinder</a></li>
-			<li><a href="examples/funnel3d/index.htm">3D funnel</a></li>
-			<li><a href="examples/pyramid3d/index.htm">3D pyramid</a></li>
-			<li><a href="examples/3d-column-stacking-grouping/index.htm">3D column with stacking and grouping</a></li>
-			<li><a href="examples/3d-pie/index.htm">3D pie</a></li>
-			<li><a href="examples/3d-pie-donut/index.htm">3D donut</a></li>
-			<li><a href="examples/3d-scatter-draggable/index.htm">3D scatter chart</a></li>
-		</ul>
-		<h4>Gauges</h4>
-		<ul>
-			<li><a href="examples/gauge-speedometer/index.htm">Gauge series</a></li>
-			<li><a href="examples/gauge-solid/index.htm">Solid gauge</a></li>
-			<li><a href="examples/gauge-activity/index.htm">Activity gauge</a></li>
-			<li><a href="examples/gauge-clock/index.htm">Clock</a></li>
-			<li><a href="examples/gauge-dual/index.htm">Gauge with dual axes</a></li>
-			<li><a href="examples/gauge-vu-meter/index.htm">VU meter</a></li>
-			<li><a href="examples/bullet-graph/index.htm">Bullet graph</a></li>
-		</ul>
-		<h4>Heat and tree maps</h4>
-		<ul>
-			<li><a href="examples/heatmap/index.htm">Heat map</a></li>
-			<li><a href="examples/heatmap-canvas/index.htm">Large heat map</a></li>
-			<li><a href="examples/honeycomb-usa/index.htm">Tile map, honeycomb</a></li>
-			<li><a href="examples/treemap-coloraxis/index.htm">Tree map with color axis</a></li>
-			<li><a href="examples/treemap-with-levels/index.htm">Tree map with levels</a></li>
-			<li><a href="examples/treemap-large-dataset/index.htm">Large tree map</a></li>
-		</ul>
-		<h4>More chart types</h4>
-		<ul>
-			<li><a href="examples/polar/index.htm">Polar (radar) chart</a></li>
-			<li><a href="examples/polar-spider/index.htm">Spiderweb</a></li>
-			<li><a href="examples/sunburst/index.htm">Sunburst</a></li>
-			<li><a href="examples/polar-wind-rose/index.htm">Wind rose</a></li>
-			<li><a href="examples/parallel-coordinates/index.htm">Parallel coordinates</a></li>
-			<li><a href="examples/windbarb-series/index.htm">Wind barb</a></li>
-			<li><a href="examples/vector-plot/index.htm">Vector plot</a></li>
-			<li><a href="examples/box-plot/index.htm">Box plot</a></li>
-			<li><a href="examples/error-bar/index.htm">Error bar</a></li>
-			<li><a href="examples/waterfall/index.htm">Waterfall</a></li>
-			<li><a href="examples/variwide/index.htm">Variwide</a></li>
-			<li><a href="examples/histogram/index.htm">Histogram</a></li>
-			<li><a href="examples/bellcurve/index.htm">Bell curve</a></li>
-			<li><a href="examples/funnel/index.htm">Funnel chart</a></li>
-			<li><a href="examples/pyramid/index.htm">Pyramid chart</a></li>
-			<li><a href="examples/polygon/index.htm">Polygon series</a></li>
-			<li><a href="examples/pareto/index.htm">Pareto chart</a></li>
-			<li><a href="examples/sankey-diagram/index.htm">Sankey diagram</a></li>
-			<li><a href="examples/dependency-wheel/index.htm">Dependency wheel</a></li>
-			<li><a href="examples/organization-chart/index.htm">Organization chart</a></li>
-			<li><a href="examples/x-range/index.htm">X-range series</a></li>
-			<li><a href="examples/wordcloud/index.htm">Word cloud</a></li>
-			<li><a href="examples/column-pyramid/index.htm">Column pyramid chart</a></li>
-			<li><a href="examples/timeline/index.htm">Timeline</a></li>
-			<li><a href="examples/parliament-chart/index.htm">Parliament (item) chart</a></li>
-			<li><a href="examples/network-graph/index.htm">Network graph (force directed graph)</a></li>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Highcharts Examples</title>
+</head>
+<body>
+<h1>Highcharts Examples</h1>
+<ul>
+    <li><a href="index-base.htm"><h3>Base</h3></a></li>
+    <h4>Line charts</h4>
+    <ul>
+        <li><a href="examples/line-basic/index.htm">Basic line</a></li>
+        <li><a href="examples/line-ajax/index.htm">Ajax loaded data, clickable points</a></li>
+        <li><a href="examples/line-labels/index.htm">With data labels</a></li>
+        <li><a href="examples/annotations/index.htm">With annotations</a></li>
+        <li><a href="examples/line-time-series/index.htm">Time series, zoomable</a></li>
+        <li><a href="examples/spline-inverted/index.htm">Spline with inverted axes</a></li>
+        <li><a href="examples/spline-symbols/index.htm">Spline with symbols</a></li>
+        <li><a href="examples/spline-plot-bands/index.htm">Spline with plot bands</a></li>
+        <li><a href="examples/spline-irregular-time/index.htm">Time data with irregular intervals</a></li>
+        <li><a href="examples/line-log-axis/index.htm">Logarithmic axis</a></li>
+        <li><a href="examples/line-boost/index.htm">Line chart with 500k points</a></li>
+    </ul>
+    <h4>Area charts</h4>
+    <ul>
+        <li><a href="examples/area-basic/index.htm">Basic area</a></li>
+        <li><a href="examples/area-negative/index.htm">Area with negative values</a></li>
+        <li><a href="examples/area-stacked/index.htm">Stacked area</a></li>
+        <li><a href="examples/area-stacked-percent/index.htm">Percentage area</a></li>
+        <li><a href="examples/area-missing/index.htm">Area with missing points</a></li>
+        <li><a href="examples/area-inverted/index.htm">Inverted axes</a></li>
+        <li><a href="examples/areaspline/index.htm">Area-spline</a></li>
+        <li><a href="examples/arearange/index.htm">Area range</a></li>
+        <li><a href="examples/arearange-line/index.htm">Area range and line</a></li>
+        <li><a href="examples/sparkline/index.htm">Sparkline charts</a></li>
+        <li><a href="examples/streamgraph/index.htm">Streamgraph</a></li>
+    </ul>
+    <h4>Column and bar charts</h4>
+    <ul>
+        <li><a href="examples/bar-basic/index.htm">Basic bar</a></li>
+        <li><a href="examples/bar-stacked/index.htm">Stacked bar</a></li>
+        <li><a href="examples/bar-negative-stack/index.htm">Bar with negative stack</a></li>
+        <li><a href="examples/column-basic/index.htm">Basic column</a></li>
+        <li><a href="examples/column-negative/index.htm">Column with negative values</a></li>
+        <li><a href="examples/column-stacked/index.htm">Stacked column</a></li>
+        <li><a href="examples/column-stacked-and-grouped/index.htm">Stacked and grouped column</a></li>
+        <li><a href="examples/column-stacked-percent/index.htm">Stacked percentage column</a></li>
+        <li><a href="examples/column-rotated-labels/index.htm">Column with rotated labels</a></li>
+        <li><a href="examples/column-drilldown/index.htm">Column with drilldown</a></li>
+        <li><a href="examples/column-placement/index.htm">Fixed placement columns</a></li>
+        <li><a href="examples/column-parsed/index.htm">Data defined in a HTML table</a></li>
+        <li><a href="examples/columnrange/index.htm">Column range</a></li>
+    </ul>
+    <h4>Pie charts</h4>
+    <ul>
+        <li><a href="examples/pie-basic/index.htm">Pie chart</a></li>
+        <li><a href="examples/pie-legend/index.htm">Pie with legend</a></li>
+        <li><a href="examples/pie-donut/index.htm">Donut chart</a></li>
+        <li><a href="examples/pie-semi-circle/index.htm">Semi circle donut</a></li>
+        <li><a href="examples/pie-drilldown/index.htm">Pie with drilldown</a></li>
+        <li><a href="examples/pie-gradient/index.htm">Pie with gradient fill</a></li>
+        <li><a href="examples/pie-monochrome/index.htm">Pie with monochrome fill</a></li>
+        <li><a href="examples/variable-radius-pie/index.htm">Variable radius pie</a></li>
+    </ul>
+    <h4>Scatter and bubble charts</h4>
+    <ul>
+        <li><a href="examples/scatter/index.htm">Scatter plot</a></li>
+        <li><a href="examples/scatter-boost/index.htm">Scatter plot with 1 million points</a></li>
+        <li><a href="examples/bubble/index.htm">Bubble chart</a></li>
+        <li><a href="examples/bubble-3d/index.htm">3D bubbles</a></li>
+        <li><a href="examples/packed-bubble/index.htm">Packed bubble chart</a></li>
+        <li><a href="examples/packed-bubble-split/index.htm">Split Packed bubble chart</a></li>
+    </ul>
+    <h4>Combinations</h4>
+    <ul>
+        <li><a href="examples/synchronized-charts/index.htm">Synchronized charts</a></li>
+        <li><a href="examples/combo/index.htm">Column, line and pie</a></li>
+        <li><a href="examples/combo-dual-axes/index.htm">Dual axes, line and column</a></li>
+        <li><a href="examples/combo-multi-axes/index.htm">Multiple axes</a></li>
+        <li><a href="examples/combo-regression/index.htm">Scatter with regression line</a></li>
+        <li><a href="examples/combo-meteogram/index.htm">Meteogram</a></li>
+        <li><a href="examples/combo-timeline/index.htm">Advanced timeline</a></li>
+    </ul>
+    <h4>Styled mode (CSS styling)</h4>
+    <ul>
+        <li><a href="examples/styled-mode-column/index.htm">Styled mode column</a></li>
+        <li><a href="examples/styled-mode-pie/index.htm">Styled mode pie</a></li>
+    </ul>
+    <h4>Accessible charts</h4>
+    <ul>
+        <li><a href="examples/accessible-line/index.htm">Accessible line chart</a></li>
+        <li><a href="examples/accessible-pie/index.htm">Accessible pie chart</a></li>
+        <li><a href="examples/advanced-accessible/index.htm">Advanced accessible chart</a></li>
+        <li><a href="examples/sonification/index.htm">Sonification</a></li>
+    </ul>
+    <h4>Dynamic charts</h4>
+    <ul>
+        <li><a href="examples/dynamic-update/index.htm">Spline updating each second</a></li>
+        <li><a href="examples/dynamic-click-to-add/index.htm">Click to add a point</a></li>
+        <li><a href="examples/dynamic-master-detail/index.htm">Master-detail chart</a></li>
+        <li><a href="examples/chart-update/index.htm">Update options after render</a></li>
+        <li><a href="examples/responsive/index.htm">Responsive chart</a></li>
+        <li><a href="examples/live-data/index.htm">Live data from dynamic CSV</a></li>
+    </ul>
+    <h4>3D charts</h4>
+    <ul>
+        <li><a href="examples/3d-column-interactive/index.htm">3D column</a></li>
+        <li><a href="examples/3d-column-null-values/index.htm">3D column with null and 0 values</a></li>
+        <li><a href="examples/cylinder/index.htm">3D cylinder</a></li>
+        <li><a href="examples/funnel3d/index.htm">3D funnel</a></li>
+        <li><a href="examples/pyramid3d/index.htm">3D pyramid</a></li>
+        <li><a href="examples/3d-column-stacking-grouping/index.htm">3D column with stacking and grouping</a></li>
+        <li><a href="examples/3d-pie/index.htm">3D pie</a></li>
+        <li><a href="examples/3d-pie-donut/index.htm">3D donut</a></li>
+        <li><a href="examples/3d-scatter-draggable/index.htm">3D scatter chart</a></li>
+    </ul>
+    <h4>Gauges</h4>
+    <ul>
+        <li><a href="examples/gauge-speedometer/index.htm">Gauge series</a></li>
+        <li><a href="examples/gauge-solid/index.htm">Solid gauge</a></li>
+        <li><a href="examples/gauge-activity/index.htm">Activity gauge</a></li>
+        <li><a href="examples/gauge-clock/index.htm">Clock</a></li>
+        <li><a href="examples/gauge-dual/index.htm">Gauge with dual axes</a></li>
+        <li><a href="examples/gauge-vu-meter/index.htm">VU meter</a></li>
+        <li><a href="examples/bullet-graph/index.htm">Bullet graph</a></li>
+    </ul>
+    <h4>Heat and tree maps</h4>
+    <ul>
+        <li><a href="examples/heatmap/index.htm">Heat map</a></li>
+        <li><a href="examples/heatmap-canvas/index.htm">Large heat map</a></li>
+        <li><a href="examples/honeycomb-usa/index.htm">Tile map, honeycomb</a></li>
+        <li><a href="examples/treemap-coloraxis/index.htm">Tree map with color axis</a></li>
+        <li><a href="examples/treemap-with-levels/index.htm">Tree map with levels</a></li>
+        <li><a href="examples/treemap-large-dataset/index.htm">Large tree map</a></li>
+    </ul>
+    <h4>More chart types</h4>
+    <ul>
+        <li><a href="examples/polar/index.htm">Polar (radar) chart</a></li>
+        <li><a href="examples/polar-spider/index.htm">Spiderweb</a></li>
+        <li><a href="examples/sunburst/index.htm">Sunburst</a></li>
+        <li><a href="examples/polar-wind-rose/index.htm">Wind rose</a></li>
+        <li><a href="examples/parallel-coordinates/index.htm">Parallel coordinates</a></li>
+        <li><a href="examples/windbarb-series/index.htm">Wind barb</a></li>
+        <li><a href="examples/vector-plot/index.htm">Vector plot</a></li>
+        <li><a href="examples/box-plot/index.htm">Box plot</a></li>
+        <li><a href="examples/error-bar/index.htm">Error bar</a></li>
+        <li><a href="examples/waterfall/index.htm">Waterfall</a></li>
+        <li><a href="examples/variwide/index.htm">Variwide</a></li>
+        <li><a href="examples/histogram/index.htm">Histogram</a></li>
+        <li><a href="examples/bellcurve/index.htm">Bell curve</a></li>
+        <li><a href="examples/funnel/index.htm">Funnel chart</a></li>
+        <li><a href="examples/pyramid/index.htm">Pyramid chart</a></li>
+        <li><a href="examples/polygon/index.htm">Polygon series</a></li>
+        <li><a href="examples/pareto/index.htm">Pareto chart</a></li>
+        <li><a href="examples/sankey-diagram/index.htm">Sankey diagram</a></li>
+        <li><a href="examples/dependency-wheel/index.htm">Dependency wheel</a></li>
+        <li><a href="examples/organization-chart/index.htm">Organization chart</a></li>
+        <li><a href="examples/x-range/index.htm">X-range series</a></li>
+        <li><a href="examples/wordcloud/index.htm">Word cloud</a></li>
+        <li><a href="examples/column-pyramid/index.htm">Column pyramid chart</a></li>
+        <li><a href="examples/timeline/index.htm">Timeline</a></li>
+        <li><a href="examples/parliament-chart/index.htm">Parliament (item) chart</a></li>
+        <li><a href="examples/network-graph/index.htm">Network graph (force directed graph)</a></li>
 
-			<li><a href="examples/renderer/index.htm">General drawing</a></li>
-			<li><a href="examples/venn-diagram/index.htm">Venn diagram</a></li>
-			<li><a href="examples/euler-diagram/index.htm">Euler diagram</a></li>
-		</ul>
-	</body>
+        <li><a href="examples/renderer/index.htm">General drawing</a></li>
+        <li><a href="examples/venn-diagram/index.htm">Venn diagram</a></li>
+        <li><a href="examples/euler-diagram/index.htm">Euler diagram</a></li>
+    </ul>
+    <li><a href="index-maps.htm"><h3>Maps</h3></a></li>
+	<h4>General</h4>
+	<ul>
+		<li><a href="examples-maps/all-maps/index.htm">Overview</a></li>
+		<li><a href="examples-maps/color-axis/index.htm">Color axis and data labels</a></li>
+		<li><a href="examples-maps/category-map/index.htm">Categorized areas</a></li>
+		<li><a href="examples-maps/distribution/index.htm">Distribution map</a></li>
+		<li><a href="examples-maps/all-areas-as-null/index.htm">Highlighted areas</a></li>
+		<li><a href="examples-maps/us-counties/index.htm">Detailed map, US counties</a></li>
+		<li><a href="examples-maps/data-class-two-ranges/index.htm">Data classes and popup</a></li>
+		<li><a href="examples-maps/data-class-ranges/index.htm">Multiple data classes</a></li>
+		<li><a href="examples-maps/us-data-labels/index.htm">Small US with data labels</a></li>
+		<li><a href="examples-maps/map-pies/index.htm">Map with overlaid pie charts</a></li>
+		<li><a href="examples-maps/flight-routes/index.htm">Simple flight routes</a></li>
+		<li><a href="examples-maps/pattern-fill-map/index.htm">Map with pattern fills</a></li>
+	</ul>
+
+	<h4>Dynamic</h4>
+	<ul>
+		<li><a href="examples-maps/map-drilldown/index.htm">Drilldown</a></li>
+		<li><a href="examples-maps/rich-info/index.htm">Rich information on click</a></li>
+		<li><a href="examples-maps/tooltip/index.htm">Fixed tooltip with HTML</a></li>
+		<li><a href="examples-maps/doubleclickzoomto/index.htm">Zoom to area by double click</a></li>
+		<li><a href="examples-maps/eu-capitals-temp/index.htm">Current temperatures in capitals of Europe</a></li>
+	</ul>
+
+	<h4>Input formats</h4>
+	<ul>
+		<li><a href="examples-maps/geojson/index.htm">GeoJSON areas</a></li>
+		<li><a href="examples-maps/geojson-multiple-types/index.htm">GeoJSON with rivers and cities</a></li>
+		<li><a href="examples-maps/mappoint-latlon/index.htm">Map point with lat/long</a></li>
+		<li><a href="examples-maps/latlon-advanced/index.htm">Advanced lat/long</a></li>
+	</ul>
+	<h4>Series types</h4>
+	<ul>
+		<li><a href="examples-maps/map-bubble/index.htm">Map bubble</a></li>
+		<li><a href="examples-maps/heatmap/index.htm">Heat map</a></li>
+		<li><a href="examples-maps/honeycomb-usa/index.htm">Tile map, honeycomb</a></li>
+		<li><a href="examples-maps/circlemap-africa/index.htm">Tile map, circles</a></li>
+		<li><a href="examples-maps/diamondmap/index.htm">Tile map, diamonds</a></li>
+		<li><a href="examples-maps/mapline-mappoint/index.htm">Lines and points in maps</a></li>
+	</ul>
+    <li><a href="index-stock.htm"><h3>Stock</h3></a></li>
+	<h4>General</h4>
+	<ul>
+		<li><a href="examples-stock/stock-tools-gui/index.htm"> Stock chart with GUI </a></li>
+		<li><a href="examples-stock/basic-line/index.htm"> Single line series</a></li>
+		<li><a href="examples-stock/candlestick-and-volume/index.htm"> Two panes, candlestick and volume</a></li>
+		<li><a href="examples-stock/compare/index.htm"> Compare multiple series</a></li>
+		<li><a href="examples-stock/data-grouping/index.htm"> 52,000 points with data grouping</a></li>
+		<li><a href="examples-stock/lazy-loading/index.htm"> 1.7 million points with async loading</a></li>
+		<li><a href="examples-stock/intraday-area/index.htm"> Intraday area</a></li>
+		<li><a href="examples-stock/intraday-breaks/index.htm"> Intraday with breaks</a></li>
+		<li><a href="examples-stock/intraday-candlestick/index.htm"> Intraday candlestick</a></li>
+		<li><a href="examples-stock/flags-general/index.htm"> Flags marking events</a></li>
+		<li><a href="examples-stock/responsive/index.htm"> Responsive chart</a></li>
+		<li><a href="examples-stock/dynamic-update/index.htm"> Dynamically updated data</a></li>
+	</ul>
+	<h4>Chart types</h4>
+	<ul>
+		<li><a href="examples-stock/line-markers/index.htm"> Line with markers and shadow</a></li>
+		<li><a href="examples-stock/spline/index.htm"> Spline</a></li>
+		<li><a href="examples-stock/step-line/index.htm"> Step line</a></li>
+		<li><a href="examples-stock/area/index.htm"> Area</a></li>
+		<li><a href="examples-stock/areaspline/index.htm"> Area spline</a></li>
+		<li><a href="examples-stock/arearange/index.htm"> Area range</a></li>
+		<li><a href="examples-stock/depth-chart/index.htm">Depth chart</a></li>
+		<li><a href="examples-stock/areasplinerange/index.htm"> Area spline range</a></li>
+		<li><a href="examples-stock/candlestick/index.htm"> Candlestick</a></li>
+		<li><a href="examples-stock/ohlc/index.htm"> OHLC</a></li>
+		<li><a href="examples-stock/column/index.htm"> Column</a></li>
+		<li><a href="examples-stock/columnrange/index.htm"> Column range</a></li>
+		<li><a href="examples-stock/markers-only/index.htm"> Point markers only</a></li>
+	</ul>
+	<h4>Various features</h4>
+	<ul>
+		<li><a href="examples-stock/stock-tools-custom-gui/index.htm"> Stock chart with custom GUI </a></li>
+		<li><a href="examples-stock/yaxis-plotlines/index.htm"> Plot lines on Y axis</a></li>
+		<li><a href="examples-stock/yaxis-plotbands/index.htm"> Plot bands on Y axis</a></li>
+		<li><a href="examples-stock/yaxis-reversed/index.htm"> Reversed Y axis</a></li>
+		<li><a href="examples-stock/styled-scrollbar/index.htm"> Styled scrollbar</a></li>
+		<li><a href="examples-stock/scrollbar-disabled/index.htm"> Disabled scrollbar</a></li>
+		<li><a href="examples-stock/navigator-disabled/index.htm"> Disabled navigator</a></li>
+	</ul>
+	<h4>Flags and Indicators</h4>
+	<ul>
+		<li><a href="examples-stock/macd-pivot-points/index.htm"> MACD pivot points</a></li>
+		<li><a href="examples-stock/sma-volume-by-price/index.htm"> SMA volume by price</a></li>
+		<li><a href="examples-stock/flags-placement/index.htm"> Flags placement</a></li>
+		<li><a href="examples-stock/flags-shapes/index.htm"> Flags shapes and colors</a></li>
+	</ul>
+    <li><a href="index-gantt.htm"><h3>Gantt</h3></a></li>
+	<h4>Highcharts Gantt</h4>
+	<ul>
+		<li><a href="examples-gantt/project-management/index.htm">Project Management</a></li>
+		<li><a href="examples-gantt/resource-management/index.htm">Resource Management</a></li>
+		<li><a href="examples-gantt/interactive-gantt/index.htm">Interactive gantt</a></li>
+		<!-- <li><a href="examples-gantt/logistics/index.htm">Advanced logistics</a></li> -->
+		<li><a href="examples-gantt/subtasks/index.htm">Subtasks</a></li>
+		<li><a href="examples-gantt/progress-indicator/index.htm">Progress indicator</a></li>
+		<li><a href="examples-gantt/left-axis-table/index.htm">Left axis as a table</a></li>
+		<li><a href="examples-gantt/styled-mode/index.htm">Styled mode</a></li>
+		<li><a href="examples-gantt/inverted/index.htm">Inverted chart</a></li>
+		<li><a href="examples-gantt/custom-labels/index.htm">Custom data labels with symbols</a></li>
+		<li><a href="examples-gantt/download-pdf/index.htm">Download PDF</a></li>
+		<li><a href="examples-gantt/with-navigation/index.htm">With navigation</a></li>
+	</ul>
+</ul>
+</body>
 </html>

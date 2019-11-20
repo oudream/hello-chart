@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-
+### doc
+# http://nginx.org/en/docs/
 # https://docs.nginx.com/
 # https://juejin.im/post/5d81906c518825300a3ec7ca
 
@@ -10,6 +11,7 @@ nginx -V
 
 
 # windows
+http://nginx.org/download/nginx-1.16.1.zip
 git clone https://github.com/oudream/nginx-v1.9.7
 # config
 ./conf/nginx.conf # 默认配置
